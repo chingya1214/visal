@@ -1,0 +1,51 @@
+{
+  "A13": [
+    { "region": "大型演出", "count": "1839","count2": "8.31","count3": "113.3"},
+    { "region": "中型演出", "count": "1973","count2": "1.72","count3": "42.3"},
+    { "region": "小型演出", "count": "2210","count2": "0.63","count3": "10.4"},
+    { "region": "West", "count": "0"},
+    { "region": "Central", "count": "0"}
+  ],
+  "A14": [
+    { "region": "大型演出", "count": "1756","count2": "9.1","count3": "123.5"},
+    { "region": "中型演出", "count": "2136","count2": "1.95","count3": "45.9"},
+    { "region": "小型演出", "count": "2686","count2": "0.59","count3": "12.8"},
+    { "region": "West", "count": "0"},
+    { "region": "Central", "count": "0"}
+  ],
+  "A15": [
+    { "region": "大型演出", "count": "1650","count2": "8.5","count3": "112.1"},
+    { "region": "中型演出", "count": "2069","count2": "2.11","count3": "45.4"},
+    { "region": "小型演出", "count": "2841","count2": "0.53","count3": "14.1"},
+    { "region": "West", "count": "0"},
+    { "region": "Central", "count": "0"}
+  ],
+  "A16": [
+    { "region": "大型演出", "count": "1651","count2": "8.64","count3": "112"},
+    { "region": "中型演出", "count": "2124","count2": "2.25","count3": "47.1"},
+    { "region": "小型演出", "count": "2663","count2": "0.51","count3": "12.1"},
+    { "region": "West", "count": "0"},
+    { "region": "Central", "count": "0"}
+  ],
+  "A17": [
+    { "region": "大型演出", "count": "1719","count2": "9.89","count3": "122.1"},
+    { "region": "中型演出", "count": "2073","count2": "2.14","count3": "45.8"},
+    { "region": "小型演出", "count": "2909","count2": "0.62","count3": "14.1"},
+    { "region": "West", "count": "0"},
+    { "region": "Central", "count": "0"}
+  ],
+  "A18": [
+    { "region": "大型演出", "count": "1756","count2": "9.68","count3": "119.1"},
+    { "region": "中型演出", "count": "2233","count2": "2.32","count3": "48.3"},
+    { "region": "小型演出", "count": "3069","count2": "0.62","count3": "14.9"},
+    { "region": "West", "count": "0"},
+    { "region": "Central", "count": "0"}
+  ],
+  "A19": [
+    { "region": "大型演出", "count": "1839","count2": "10.23","count3": "129.5"},
+    { "region": "中型演出", "count": "1973","count2": "2.64","count3": "52.8"},
+    { "region": "小型演出", "count": "2973","count2": "0.71","count3": "15"},
+    { "region": "West", "count": "0"},
+    { "region": "Central", "count": "0"}
+  ]
+}
