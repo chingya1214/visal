@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>HW3</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>HW3-藝文消費力調查：兩廳院售票分析</title>
   <style>
-    /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -292,7 +286,7 @@
 <h1 style="padding:50px;margin-bottom:-30px;text-align: center;background: #313639;color: white">藝文消費力調查：兩廳院售票分析</h1>
 <div style="padding: 30px">
   <div class="container">
-    <h2>Part1-各表演類售票數據</h2>
+    <h2>Part1-各表演類別售票數據</h2>
     <div class="wrapper">
       <div><img src="img/old_img.jpg" alt=""></div>
       <div class="canvas">
@@ -353,15 +347,16 @@
       <h4>設計選擇：</h4>
       <p>原圖表直接將數據以表格呈現，一次呈現大量數據，然而人的注意力和短期記憶有限，大量數據反而會讓人更混亂，增加使用者找資料的時間與心力，且表格缺乏顏色分辨類別，人在篩選資料時會較有難度。根據上述缺點，我們提出了改良後的視覺化圖表，因數據屬於連續時間(年份)，且各類別資訊會加總為總計量，因此我們選擇用堆疊圖呈現，並將數據連線成堆疊區域圖(stacked area chart)，呈現各類別在連續時間內的變化。</p>
       <p>另外，我們也利用overview first, zoom and filter, details on demand的原則，因人的注意力有限，所以先將數據分為總票房、平均票房、場次和售票張數四大類主題，在每一個主題中，先呈現overview的堆疊區域圖，滑鼠移到圖上，右方的表格才會呈現該年的細部數據，將人的注意力限縮在該年分的資訊，讓使用者根據需求選擇要呈現的數據，避免一次揭露過多資訊。同時，我們也將各節目類別利用顏色區分，讓使用者輕易辨別不同類型的數據。</p>
+      <p>參考資料、資料集來源：<a href="https://www.storm.mg/article/2706769?page=1">兩廳院大數據》百花齊放？泡沫膨脹？觀眾人數追不上演出-1</a> </p>
     </div>
   </div>
   <div class="container">
-    <h2>Part2-各表演類售票數據</h2>
+    <h2>Part2-各表演規模售票數據</h2>
     <div class="wrapper">
       <div><img src="img/old_img2.jpg" alt=""></div>
       <div>
         <div id="chart-area">
-          <h4 style="text-align: center;margin: 20px">2013-2019各表演規模場數占比圖</h4>
+          <h4 style="text-align: center;margin: 20px">2013-2019年各表演規模場數占比圖</h4>
           <form>
             <label><input type="radio" name="dataset" value="A13" checked> 2013</label>
             <label><input type="radio" name="dataset" value="A14">2014</label>
@@ -381,8 +376,8 @@
       <div class="context">
         <h4>設計選擇：</h4>
         <p>原圖主要以表格方式呈現，而在報導中，主要強調說明的部分為「小型演出的比例逐漸成長」，然而表格型態中，很難去了解比例的呈現與比較。因此，根據以上文章內容想強調的部分進行加強，我們選擇使用圓餅圖的方式呈現，此資訊視覺化的呈現方式主要是能夠讓人快速了解整體的比例分布狀況。</p>
-        <p>此處運用overview first, zoom and filter, details on demand的原則，讓人能夠集中在想看到的資訊區塊上，並且給予互動回饋，當滑鼠移到區域上方時，圓餅圖會顯示細部的資訊以及放大、顏色變深，讓使用者能夠輕易了解他們目前所閱讀的區塊，另外，他們能夠點選想要了解的年份，進行更詳細的資訊探索，避免一次揭露過多資訊。
-        </p>
+        <p>此處運用overview first, zoom and filter, details on demand的原則，讓人能夠集中在想看到的資訊區塊上，並且給予互動回饋，當滑鼠移到區域上方時，圓餅圖會顯示細部的資訊以及放大、顏色變深，讓使用者能夠輕易了解他們目前所閱讀的區塊，另外，他們能夠點選想要了解的年份，進行更詳細的資訊探索，避免一次揭露過多資訊。</p>
+        <p>參考資料、資料集來源：<a href="https://www.storm.mg/article/2706769?page=2">兩廳院大數據》百花齊放？泡沫膨脹？觀眾人數追不上演出-2</a> </p>
       </div>
     </div>
   </div>

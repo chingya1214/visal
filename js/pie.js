@@ -37,7 +37,7 @@ d3.json("data.json", type).then(data => {
         .on("change", update);
 
     function update(val = this.value) {
-        // Join new data
+        // Join new csv
         const path2 = svg2.selectAll("path")
             .data(pie(data[val]));
 
