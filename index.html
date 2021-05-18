@@ -52,8 +52,6 @@
       box-sizing: border-box;
     }
 
-
-
     /*css*/
     body{
       font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI";
@@ -88,7 +86,7 @@
     }
     img{
       width: 100%;
-      max-width: 580px;
+      max-width: 500px;
       height: auto;
     }
     button{
@@ -108,8 +106,8 @@
       border-radius:10px;
     }
     .context{
-      padding: 20px;
-      background: #b2b2b2;
+      padding: 30px 50px;
+      background: #c9c8c8;
     }
 
     .container{
@@ -160,27 +158,7 @@
     }
 
 
-
-
     /*pie*/
-    .content {
-      width: 960px;
-      height: 500px;
-      position: relative;
-      margin: 0px auto -65px auto;
-    }
-
-    .content svg {
-      width: 100%;
-      height: 100%;
-    }
-
-    polyline{
-      opacity: .3;
-      stroke: black;
-      stroke-width: 2px;
-      fill: none;
-    }
     path.slice{
       stroke-width:2px;
     }
@@ -279,6 +257,7 @@
       position: relative;
       top:-100px;
       right:-440px;
+      display: inline-block;
     }
   </style>
 </head>
@@ -354,7 +333,7 @@
     <h2>Part2-各表演規模售票數據</h2>
     <div class="wrapper">
       <div><img src="img/old_img2.jpg" alt=""></div>
-      <div>
+      <div style="margin-bottom: -70px">
         <div id="chart-area">
           <h4 style="text-align: center;margin: 20px">2013-2019年各表演規模場數占比圖</h4>
           <form>
@@ -373,12 +352,12 @@
           <div><p class="color" style="background:#8da0cb;">&nbsp;&nbsp;&nbsp;&nbsp;</p>小型演出</div>
         </div>
       </div>
-      <div class="context">
-        <h4>設計選擇：</h4>
-        <p>原圖主要以表格方式呈現，而在報導中，主要強調說明的部分為「小型演出的比例逐漸成長」，然而表格型態中，很難去了解比例的呈現與比較。因此，根據以上文章內容想強調的部分進行加強，我們選擇使用圓餅圖的方式呈現，此資訊視覺化的呈現方式主要是能夠讓人快速了解整體的比例分布狀況。</p>
-        <p>此處運用overview first, zoom and filter, details on demand的原則，讓人能夠集中在想看到的資訊區塊上，並且給予互動回饋，當滑鼠移到區域上方時，圓餅圖會顯示細部的資訊以及放大、顏色變深，讓使用者能夠輕易了解他們目前所閱讀的區塊，另外，他們能夠點選想要了解的年份，進行更詳細的資訊探索，避免一次揭露過多資訊。</p>
-        <p>參考資料、資料集來源：<a href="https://www.storm.mg/article/2706769?page=2">兩廳院大數據》百花齊放？泡沫膨脹？觀眾人數追不上演出-2</a> </p>
-      </div>
+    </div>
+    <div class="context">
+      <h4>設計選擇：</h4>
+      <p>原圖主要以表格方式呈現，而在報導中，主要強調說明的部分為「小型演出的比例逐漸成長」，然而表格型態中，很難去了解比例的呈現與比較。因此，根據以上文章內容想強調的部分進行加強，我們選擇使用圓餅圖的方式呈現，此資訊視覺化的呈現方式主要是能夠讓人快速了解整體的比例分布狀況。</p>
+      <p>此處運用overview first, zoom and filter, details on demand的原則，讓人能夠集中在想看到的資訊區塊上，並且給予互動回饋，當滑鼠移到區域上方時，圓餅圖會顯示細部的資訊以及放大、顏色變深，讓使用者能夠輕易了解他們目前所閱讀的區塊，另外，他們能夠點選想要了解的年份，進行更詳細的資訊探索，避免一次揭露過多資訊。</p>
+      <p>參考資料、資料集來源：<a href="https://www.storm.mg/article/2706769?page=2">兩廳院大數據》百花齊放？泡沫膨脹？觀眾人數追不上演出-2</a> </p>
     </div>
   </div>
 </div>
